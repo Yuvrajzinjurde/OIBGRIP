@@ -1,0 +1,45 @@
+footer 
+{
+    position: absolute;
+    bottom: 10;
+    top: 100;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    z-index: 10;
+    background: #eff4fd;
+}
+footer .navigation
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+
+}
+footer .navigation li
+{
+    list-style: none;
+    margin: 10px 10px;
+    color: #000;
+    font-weight: bold;
+}
+footer .navigation li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 350px;
+    color: #000;
+    font-weight: bold;
+
+}
+
+footer .navigation li a:hover
+{
+    color: orange;
+}
